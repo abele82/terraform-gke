@@ -39,7 +39,7 @@ resource "kubernetes_deployment" "app-deploy-demo" {
 
       spec {
         container {
-          image = "kserge2001/school"
+          image = "kserge2001/school:1"
           name  = "app-deploy-demo"
         }
       }
